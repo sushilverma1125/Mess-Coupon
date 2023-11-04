@@ -1,0 +1,163 @@
+.rec {
+    height: 6.50cm;
+    width: 3cm;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(153, 147, 147);
+    border-style: solid;
+    border-width: 0.01cm;
+}
+
+.text{
+    font-size: 0.2cm;
+    font-weight: 1px;
+    font-family: "Verdana";
+    text-align: center;
+    margin-top: -13%;
+    color: white;
+
+}
+
+/*mess pass ke upar wala ke liye*/
+.line{
+    height: 0.07cm;
+    width: .4cm;
+	margin:8px;
+	padding:-0.5cm;
+    margin-left: 45%;    
+	border-radius: 25px;
+    background-color: white;
+}
+
+/*for upper box*/
+.box1{
+    margin-top: 3%;
+    height: 0.5cm;
+    width: 3cm;
+    background-color: rgba(51,51,50,255);
+}
+
+/*naam photo details wala box*/
+.mainbox{
+    width: 2.7cm;
+    height: 4.7cm;
+    margin-left: 3%;
+	padding: 0.03cm;
+    margin-top: 8%;
+    border-color: #5a585843;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.844);
+    border-style: solid;
+    border-width: 0.003cm; /* box ka border ke liye*/
+}   
+
+.circle{
+    margin-top: 2.5%;
+    margin-left: 1%;
+    width: 45px;
+    height: 45px;
+    border: 0.1px solid rgb(87, 82, 82);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0.1px 1px 1px 0.3px #B0B1B2;
+}
+ .circle img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    height: fit-content;
+ }
+
+ .meals{
+    font-family: "Verdana";
+    font-size: 8px;
+    font-weight: bold;
+    align-items: left;
+    margin-left: 49%;
+    margin-top: -42%;
+}
+
+/*nreg no, name aur mess ke liye*/
+.details{
+    font-family: "Verdana";
+    font-size: 5px;
+    align-items: left;
+    font-weight: bold;
+    line-height: 1.7em;
+    margin-left: 49%;
+    margin-top: -135%;
+}
+
+.video video{
+    margin-top: 10%;
+    margin-right: 2%;
+    width: 2.7cm;
+    height: 3cm;
+    border: 3cm;
+}
+
+        /* body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        } */
+
+.container {
+    /* background-color: rgba(255, 255, 255, 0.844); */
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    /* padding: 0.1px; */
+    max-width: 80px;
+    margin-top: 80%;
+    margin-left: 10%;
+    justify-self: center;
+}
+
+.date1 {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    font-family: "Verdana";
+    margin-top: 2%;
+    font-size: 5px;
+}
+
+.time1 {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    font-family: "Verdana";
+    font-size: 200cm;
+    margin-top: -5%;
+    font-size: 5px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #929293;
+    width: 80px;
+    margin-top: 5%;
+}
+
+.vcode{
+    font-size: 5px;
+    border-radius: 4px;
+    /* padding: 0.001rem; */
+    border-color: rgb(8, 8, 8);
+    border-style: solid;
+    border-width: 0.09rem;
+    max-width: 88.7px;
+    margin-top: 8%;
+    margin-left: 5%;
+    justify-self: center;
+    justify-items: center;
+    height: 8%;
+}
+
+.vcode p{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Verdana";
+    font-size: 5px;
+}

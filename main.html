@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Coupoun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rec">
+        <div class="box1">
+            <div class="line"></div>
+        </div>
+        <center><p class="text">Mess Pass</p></center>
+
+        <div class="mainbox">
+            <div class="circle">
+                <img src="img.jpg" alt="image">
+            </div>
+            <div class="meal">
+                <p class="meals">Dinner </p>
+            </div>
+            <div class="video">
+                <video autoplay muted>
+                    <source src="video.mp4" type="video/mp4">
+                </video>    
+            </div>              
+            <p class="details"><br>12222221<br>Sushil Kumar<br>Mess-1 BH-6</p> 
+            
+            <div class="container">
+                <div class="date1">
+                    <span><b>Date &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                        &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                        &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                        &NonBreakingSpace;&NonBreakingSpace;</b></span>
+                    <span id="date"></span>
+                </div>
+                <hr>
+                <div class="time1">
+                    <span><b>Time &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                        &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                        &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                        &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                        &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</b></span>
+                    <span id="time"></span>
+                </div>
+            </div>
+            <script>
+                function updateDateTime() {
+                    const currentDate = new Date();
+                    const dateElement = document.getElementById("date");
+                    const timeElement = document.getElementById("time");
+        
+                    const options = { year: 'numeric', month: 'short', day: 'numeric' };
+                    dateElement.textContent = currentDate.toLocaleDateString('en-US', options);
+        
+                    timeOptions = { hour: '2-digit', minute: '2-digit', hour12: true };
+                    timeElement.textContent = currentDate.toLocaleTimeString('en-US', timeOptions);
+                }
+        
+                updateDateTime(); // Call the function immediately to set the initial date and time.
+        
+                // Update date and time every second
+                setInterval(updateDateTime, 1000);
+            </script>
+
+            <div class="vcode">
+                <p>Verification Code  &nbsp;&nbsp;    100455</p>
+            </div>    
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+</html>
